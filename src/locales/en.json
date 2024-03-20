@@ -1,0 +1,18 @@
+{
+  "next-player": "Next player",
+  "move-0": "Game Start",
+  "move": "Move",
+  "reset-button": "Reset",
+  "won-game": "Winner",
+  "tied-game": "Tied Game",
+  "go-to": "Go to",
+  "enter": "Enter",
+  "search": "Search",
+  "search-placeholder": "pokemon name",
+  "weight": "Weight",
+  "height": "Height",
+  "remove-fav": "Remove from Favorites",
+  "add-fav": "Add to Favorites",
+  "favorites": "Favorites",
+  "exit": "Exit"
+}

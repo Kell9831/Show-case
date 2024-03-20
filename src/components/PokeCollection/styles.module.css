@@ -1,0 +1,210 @@
+.wrapper {
+  display: flex;
+  min-height: 720px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #334155;
+}
+
+.input::placeholder {
+  color: #64748b;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  width: 100%;
+  gap: 8px;
+}
+
+.button {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #3b76f6;
+
+  color: #fff;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  border: none;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.search {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-width: 250px;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  gap: 4px;
+}
+
+.dashboard-wrapper {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  min-height: 656px;
+  grid-template-columns: auto 1fr;
+}
+
+.favorites {
+  flex-grow: 1;
+  border-radius: 16px;
+  background: #f8fafc;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.favorites-header {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.outline-button {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #3b76f6;
+
+  color: #3b76f6;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  background: none;
+}
+
+.favorite-button {
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  margin-inline: auto;
+  background: none;
+  border-radius: 4px;
+  border: 1px solid #3b76f6;
+
+  color: #3b76f6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.favorite-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* PokemonCard */
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.type-tag {
+  padding: 2px 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+  width: fit-content;
+  min-width: 215px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.favorite {
+  min-width: 140px;
+}
+
+.favorite .name {
+  font-size: 20px;
+  line-height: 28px; /* 140% */
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.id {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  text-align: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.statTop {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.statBottom {
+  color: #64748b;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px; /* 133.333% */
+}
+
+.stats {
+  display: flex;
+  width: 100%;
+}
+
+.divider {
+  border-left: 1px solid #e0e0e0;
+}

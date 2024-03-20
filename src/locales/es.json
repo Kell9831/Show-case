@@ -1,0 +1,18 @@
+{
+  "next-player": "Siguiente",
+  "move-0": "Inicio del Juego",
+  "move": "Movimiento",
+  "reset-button": "Reiniciar",
+  "won-game": "Ganador",
+  "tied-game": "Juego Empatado",
+  "go-to": "Ir a",
+  "enter": "Ingresar",
+  "search": "Buscar",
+  "search-placeholder": "nombre de pokemon",
+  "weight": "Peso",
+  "height": "Altura",
+  "remove-fav": "Remover de Favoritos",
+  "add-fav": "Agregar a Favoritos",
+  "favorites": "Favoritos",
+  "exit": "Salir"
+}
